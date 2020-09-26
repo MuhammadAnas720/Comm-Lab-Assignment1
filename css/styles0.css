@@ -1,0 +1,32 @@
+.landingview {
+  height: 500px;
+  background-image: url("images/home.jpg");
+}
+
+.navbar {
+  line-height: 80px;
+  height: 80px;
+  text-align: center;
+}
+
+.navcontent{
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.title {
+  float: left;
+  margin: auto 50px;
+}
+
+.container-navlist {
+  float: right;
+  margin: auto 50px 20px;
+}
+
+.navlist {
+  display: inline;
+  margin: auto 10px;
+
+
+}

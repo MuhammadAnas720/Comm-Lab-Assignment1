@@ -1,0 +1,138 @@
+.landingview {
+  height: 100vh;
+  background: url("../images/home1.jpg") no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.navbar {
+    background-color: black;
+    opacity: 0.5;
+    line-height: 80px;
+    height: 80px;
+    width: 100%;
+    position: fixed;
+    overflow: hidden;
+    top: 0;
+    text-align: center;
+    z-index: 2
+  }
+
+.navcontent{
+  display: inline-block;
+  vertical-align: middle;
+  color: white;
+}
+
+.title {
+  float: left;
+  margin: auto 50px;
+}
+
+.container-navlist {
+  float: right;
+  margin: auto 50px 20px;
+}
+
+.navlist {
+  display: inline;
+  margin: auto 10px;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+#third-container{
+  width: 100%;
+
+}
+
+#videosList {
+ max-width: 80%;
+ overflow: hidden;
+ margin: 0 auto;
+ padding: 0;
+}
+
+.video {
+  position: relative;
+  background-image: url('https://img.youtube.com/vi/nZcejtAwxz4/maxresdefault.jpg');
+  height: 281px;
+  width: 450px;
+  margin: 6px;
+  display: inline;
+  border-radius: 5px;
+  object-fit: cover;
+}
+
+.thevideo {
+  width: 500px;
+  position: relative;
+  border-radius: 10px;
+}
+
+.one {
+  background-image: url('../images/home1.jpg');
+}
+
+.left{
+  float: left;
+  left: 70px;
+}
+
+.right{
+  float: right;
+  right: 70px;
+
+}
+
+.left-video{
+  float: left;
+right: 25px;
+  }
+
+.right-video{
+  float: left;
+  right: 25px;
+  }
+
+video{
+  float: left;
+}
+/* Hide Play button + controls on iOS */
+video::-webkit-media-controls {
+    display:none !important;
+}
+
+.video .video-btn {
+  position: absolute;
+  display: inline-block;
+  top: 90%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  background-color: #555;
+  color: white;
+  font-size: 16px;
+  padding: 12px 24px;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+  text-align: center;
+  z-index: 5;
+  margin: 0;
+}
+
+.video .video-btn:hover {
+  background-color: black;
+}
+
+/* button {
+  z-index: 3;
+  display: inline-block;
+
+  position: relative;
+} */
